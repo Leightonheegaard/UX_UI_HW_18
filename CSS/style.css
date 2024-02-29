@@ -3,17 +3,20 @@ select by element type (button, div, section, footer)
 select by class ( start with .  .content)
 select by id (start with #  #main)
 */
+* {
+  box-sizing: border-box;
+}
 .inline-block {
   display: inline-block;
   vertical-align: top;
 }
 .logo {
   text-align: center;
-  width: 23%;
+  width: 25%;
   padding: 1%;
 }
 nav {
-  width: 73%;
+  width: 75%;
   padding: 1%;
 }
 ul {
@@ -40,3 +43,17 @@ footer ul {
 footer ul li {
   padding: 10px;
 }
+.flexContainer {
+  display: flex;
+}
+.flexContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  border: 1px solid brown;
+  width: 30%;
+  padding: 1%;
+  margin: 1.5%;
+}
+/*  */
