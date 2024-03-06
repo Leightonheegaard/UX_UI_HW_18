@@ -56,4 +56,16 @@ footer ul li {
   padding: 1%;
   margin: 1.5%;
 }
+.workGrid {
+  display: grid;
+  grid-template-rows: 150px auto 150px;
+  grid-template-columns: 1ft 1fr;
+  grid-template-areas:
+    "work1 work2"
+    "work3 work4";
+  gap: 20px;
+  background-color: burlywood;
+  padding: 20px;
+}
+
 /*  */
